@@ -1,16 +1,9 @@
 import React from 'react';
-import { useUserData } from '@src/stores/useUserData';
+import Container from './components/Container';
+import './assets/styles/globalStyles.css';
 
 function App() {
-	const { name, age } = useUserData();
-
-	return (
-		<div className="App">
-			<h1>Hello World</h1>
-			<h2>{name}</h2>
-			<h3>{age}</h3>
-		</div>
-	);
+	return <Container />;
 }
 
 export default App;

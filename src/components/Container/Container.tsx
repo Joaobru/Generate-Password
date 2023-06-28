@@ -1,4 +1,5 @@
 import Card from '../Card';
+import GeneratedPassword from '../GeneratedPassword';
 
 import {
 	ButtonStyled,
@@ -12,7 +13,7 @@ export const Container = () => (
 		<TitleStyled>Password Generator</TitleStyled>
 
 		<ContainerCardStyled>
-			<Card>PTx1f5DaFX</Card>
+			<GeneratedPassword password="PTx1f5DaFX" />
 			<Card>
 				<p>
 					Character Length

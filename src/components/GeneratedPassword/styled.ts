@@ -27,5 +27,4 @@ export const IconButtonStyled = styled.button`
 export const PasswordStyled = styled.p`
 	font-weight: 700;
 	font-size: 18px;
-	color: #ede9f2;
 `;
